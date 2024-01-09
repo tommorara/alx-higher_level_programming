@@ -1,0 +1,1 @@
+This project, 0x03. Python - Data Structures: Lists, Tuples, is part of the curriculum designed to enhance understanding of Python's fundamental data structures. Authored by Guillaume, this project is aimed at providing hands-on experience with lists and tuples in Python.

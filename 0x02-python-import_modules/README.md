@@ -1,0 +1,1 @@
+This project focuses on the fundamentals of Python, particularly dealing with imports and modules. It aims to provide a comprehensive understanding of how to import functions, create modules, and utilize command line arguments in Python programming.

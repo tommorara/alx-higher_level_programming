@@ -1,0 +1,31 @@
+==========================================
+Tests for a function that adds 2 integers
+==========================================
+    `add_integer(a, b=98)` function that adds 2 integers
+
+
+
+    Examples:
+
+    >>> add_integer = __import__("0-add_integer").add_integer
+
+    >>> add_integer(17, 8)
+    25
+    >>> add_integer(70, -2)
+    68
+    >>> add_integer(0.2)
+    98
+    >>> add_integer(209.3, -2)
+    207
+    >>> my_list = [90, 78, 98.7, 96.2]
+    >>> add_integer(my_list[0])
+    188
+    >>> add_integer(my_list[2], my_list[3])
+    194
+    >>> add_integer(4, "holiday")
+    Traceback (most recent call last):
+        ...
+    TypeError: b must be an integer
+    >>> add_integer(None)
+    Traceback (most recent call last):
+    TypeError: a must be an integer

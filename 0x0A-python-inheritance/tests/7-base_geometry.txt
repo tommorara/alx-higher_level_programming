@@ -1,0 +1,27 @@
+# Test case 1: Validating integer values
+>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+>>> bg = BaseGeometry()
+>>> bg.integer_validator("my_int", 34)
+>>> bg.integer_validator("width", 109)
+
+# Test case 2: Validating non-integer value
+>>> try:
+...     bg.integer_validator("name", "Amina")
+... except Exception as e:
+...     print(f"[{e.__class__.__name__}] {e}")
+[TypeError] name must be an integer
+
+# Test case 3: Validating value less than or equal to 0
+>>> try:
+...     bg.integer_validator("age", -15)
+... except Exception as e:
+...     print(f"[{e.__class__.__name__}] {e}")
+[ValueError] age must be greater than 0
+
+# Test case 4: Validating negative value
+>>> try:
+...     bg.integer_validator("distance", -99)
+... except Exception as e:
+...     print(f"[{e.__class__.__name__}] {e}")
+[ValueError] distance must be greater than 0

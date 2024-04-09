@@ -1,18 +1,33 @@
-# 0x12. JavaScript - Warm up
+# 0x12. JavaScript - Warm Up
 
-## Description
+## About
 
-This project is part of the ALX Software Engineering Programme. The aim is to learn the basics of JavaScript programming including scripting, variables, data types, operators, controlling program flow, functions, objects, arrays, and much more. This will set the foundation for future projects involving web development and dynamic content manipulation using JavaScript and JQuery.
+This project is part of the ALX Software Engineering Programme. It introduces the basics of JavaScript programming, including scripting for web front-end development. The project aims to cover various foundational topics in JavaScript, from variables and data types to functions and scope.
 
-### Project Details
+## Project Details
 
-- **Weight**: 1
-- **Ongoing second chance project**
-- **Start Date**: April 8, 2024, 6:00 AM
-- **End Date**: April 11, 2024, 6:00 AM
-- **Auto review launch**: At the deadline
+**Deadline:** Apr 11, 2024, 6:00 AM  
+**Weight:** 1  
+**Ongoing second chance project** - started Apr 8, 2024, 6:00 AM  
+**Auto review** will be launched at the deadline.
 
 ### Background Context
 
-JavaScript is a versatile language used for both server-side and client-side operations. Initially, we will focus on scripting to grasp the basic concepts. Later
+JavaScript is a versatile language used for both scripting and web front-end development. This project focuses on scripting to learn the basic concepts of the language before moving on to make web projects dynamic with JavaScript and JQuery.
+
+### Resources
+
+- Writing JavaScript Code
+- Variables, Data Types, Operators
+- Controlling Program Flow, Functions
+- Objects and Arrays, Intrinsic Objects
+- Module patterns, `var`, `let`, and `const`
+- JavaScript Tutorial, Modern JS
+
+### Learning Objectives
+
+By the end of this project, you should be able to explain:
+
+- Why JavaScript programming is amazing
+- How to run a JavaScript script
 

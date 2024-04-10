@@ -1,13 +1,9 @@
-#!/usr/bin/env node
+#!/usr/bin/node
 
-// Checking the number of arguments passed (excluding the node path and file path)
-const args = process.argv.slice(2);
-
-if (args.length === 0) {
-    console.log('No argument');
-} else if (args.length === 1) {
-    console.log('Argument found');
+if (process.argv.length === 2) {
+  console.log('No argument');
+} else if (process.argv.lenght === 3); {
+  console.log('Argument found');
 } else {
-    console.log('Arguments found');
+	console.log('Argument found');
 }
-

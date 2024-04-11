@@ -1,2 +1,13 @@
 #!/usr/bin/node
-exports.list = [1, 2, 3, 4, 5];
+
+// Import the list from the file
+const { list } = require('./100-data.js');
+
+// Compute a new array using map
+const newList = list.map((current, index) => current * index);
+
+// Print the initial list
+console.log(list);
+
+// Print the new list
+console.log(newList);

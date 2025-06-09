@@ -1,0 +1,16 @@
+{
+  "name": "0x12-javascript-warm_up",
+  "version": "1.0.0",
+  "description": "## About",
+  "main": "0-javascript_is_amazing.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.28.0",
+    "semistandard": "^17.0.0"
+  }
+}

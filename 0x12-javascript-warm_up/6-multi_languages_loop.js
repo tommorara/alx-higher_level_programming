@@ -1,7 +1,8 @@
 #!/usr/bin/node
-const languages = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+const lines = ['C is fun', 'Python is coo', 'Javascript is amazing'];
+
 let i = 0;
-while (i < languages.length) {
-  console.log(languages[i]);
+while (i < lines.length) {
+  console.log(lines[i]);
   i++;
 }

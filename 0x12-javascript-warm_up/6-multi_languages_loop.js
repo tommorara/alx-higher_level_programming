@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const lines = ['C is fun', 'Python is coo', 'Javascript is amazing'];
+const lines = ['C is fun', 'Python is coo', 'JavaScript is amazing'];
 
 let i = 0;
 while (i < lines.length) {

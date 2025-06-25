@@ -1,8 +1,7 @@
 #!/usr/bin/node
-const fisrtArg = process.argv[2];
-const number = parseInt(fisrtArg);
-if (!isNaN(number)) {
-  console.log('My number: ' + number);
+const num = Number(process.argv[2]);
+if (!isNaN(num)) {
+  console.log('My Number: ' + num);
 } else {
   console.log('Not a number');
 }
